@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "data-visualization-tools"
+version = "0.1.0"
+description = ""
+authors = ["zigen <hrlclb@gmail.com>"]
+readme = "README.md"
+packages = [{include = "data_visualization_tools"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jupyterlab = "^3.4.8"
+plotly = "^5.10.0"
+ipywidgets = "^7.7.2"
+pandas = "^1.5.0"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.10.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
